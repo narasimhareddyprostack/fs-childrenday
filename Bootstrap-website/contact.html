@@ -20,7 +20,11 @@
             </ul>
         </div>
     </nav>
-
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
     <div class="container mt-5">
         <div class="row">
             <div class="col-6">
@@ -40,6 +44,38 @@
                             <input type="text" class="form-control" />
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Pls select</option>
+                                <option>Web Dev</option>
+                                <option>Mobile Dev</option>
+                                <option>Cloud App</option>
+                                <option>Hybrid Apps</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <textarea class="form-control" name="" id="" placeholder="Message" cols="30"
+                                rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="submit" class="btn btn-warning" value="Submit Comment" />
+                    </div>
+
                 </div>
             </div>
             <div class="col-6">
